@@ -1,0 +1,5 @@
+groq==1.5.0
+streamlit==1.59.2
+pyvis==0.3.2
+pandas
+pytest==7.4.0

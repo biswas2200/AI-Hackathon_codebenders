@@ -1,0 +1,479 @@
+[
+  {
+    "theme_name": "Support and Billing Issues",
+    "theme_description": "Customers experience problems with support response times, billing, and related issues, including inconsistent charges, unreliable pricing models, and lack of transparency in expenses. This theme encompasses pain points related to support and billing, including response times and pricing information.",
+    "frequency": 15,
+    "impact_score": 51,
+    "segment_breakdown": {
+      "Enterprise": 7,
+      "Mid-Market": 3,
+      "Free": 3,
+      "SMB": 2
+    },
+    "use_case_breakdown": {
+      "Support": 6,
+      "Billing": 5,
+      "Unknown": 2,
+      "Billing / delivery": 1,
+      "Contract / billing": 1
+    },
+    "sample_quotes": [
+      "Support response times have degraded to 24-48 hours",
+      "Support took too long to respond to our issues",
+      "Response times seem to have gotten worse over the last quarter",
+      "Ticket: Support response time exceeds SLA",
+      "Invoice doesn't match our understanding of the pricing model."
+    ],
+    "customers": [
+      "Alex Davis",
+      "Alex Thompson",
+      "Casey Davis",
+      "Casey Young",
+      "Jordan Long",
+      "Morgan Blake",
+      "Morgan Hayes",
+      "Taylor Kim"
+    ],
+    "point_ids": [
+      "src_017_p1",
+      "src_018_p1",
+      "src_019_p1",
+      "src_020_p1",
+      "src_021_p1",
+      "src_021_p2",
+      "src_022_p1",
+      "src_023_p1",
+      "src_024_p1",
+      "src_068_p1",
+      "src_069_p1",
+      "src_071_p1",
+      "src_072_p1",
+      "src_080_p1",
+      "src_086_p1"
+    ],
+    "executive_summary": "Customers are facing problems with support response times and billing, including inconsistent charges and unreliable pricing models. With 15 occurrences, primarily in the Enterprise segment, it's critical to address these issues to ensure customer satisfaction and trust. Providing transparent billing and improving support response times will help to build stronger relationships with customers and reduce potential churn."
+  },
+  {
+    "theme_name": "Performance Issues",
+    "theme_description": "Customers encounter performance-related problems, including slow loading times, poor dashboard performance, and issues with handling large datasets. This theme covers pain points related to performance, including dashboard loading speeds and data rendering.",
+    "frequency": 17,
+    "impact_score": 43,
+    "segment_breakdown": {
+      "Enterprise": 2,
+      "SMB": 8,
+      "Mid-Market": 5,
+      "Free": 2
+    },
+    "use_case_breakdown": {
+      "Dashboard / reporting": 17
+    },
+    "sample_quotes": [
+      "Loading a year of daily aggregated data can take 30-45 seconds.",
+      "The dashboard is super slow. Takes like 30 seconds to load my reports.",
+      "When I open my year-to-date report it takes forever to render. It's just expected that we wait 30-45 seconds.",
+      "Dashboard performance could be improved",
+      "Would be amazing if there were saved templates."
+    ],
+    "customers": [
+      "Alex Miller",
+      "Alex Thompson",
+      "Casey Davis",
+      "Casey Young",
+      "Dana Wilson",
+      "Jordan Long",
+      "Jordan Rivera",
+      "Jordan Taylor",
+      "Morgan Smith",
+      "Morgan Young",
+      "Sam Martin",
+      "Taylor Brown",
+      "Taylor Kim"
+    ],
+    "point_ids": [
+      "src_013_p1",
+      "src_014_p1",
+      "src_015_p1",
+      "src_016_p1",
+      "src_025_p1",
+      "src_031_p1",
+      "src_032_p1",
+      "src_033_p1",
+      "src_056_p1",
+      "src_064_p1",
+      "src_073_p1",
+      "src_077_p1",
+      "src_079_p1",
+      "src_081_p1",
+      "src_083_p1",
+      "src_084_p1",
+      "src_085_p1"
+    ],
+    "executive_summary": "Customers are experiencing significant performance issues, including slow loading times and poor dashboard performance, particularly when handling large datasets. This affects various segments, with SMB and Mid-Market being the most impacted, indicating a need to optimize the product's performance to ensure a smooth user experience. By addressing these performance challenges, customers will be able to access and analyze their data more efficiently."
+  },
+  {
+    "theme_name": "Mobile Access and API",
+    "theme_description": "Customers experience difficulties with mobile access, including lack of mobile app, insufficient mobile app functionality, and issues with API rate limits. This theme encompasses pain points related to mobile access and API, including mobile app functionality and API documentation.",
+    "frequency": 12,
+    "impact_score": 39,
+    "segment_breakdown": {
+      "Enterprise": 5,
+      "Free": 3,
+      "Mid-Market": 3,
+      "SMB": 1
+    },
+    "use_case_breakdown": {
+      "Accessing the product": 1,
+      "Dashboard / reporting": 3,
+      "Integrations": 3,
+      "API/ reporting": 1,
+      "Reporting remotely": 1,
+      "Data Import / Export": 1,
+      "null": 2
+    },
+    "sample_quotes": [
+      "The product is effectively desktop-only, the responsive web view is unusable on a phone",
+      "There's no app; I want to glance at numbers on my phone",
+      "A native mobile app would be a huge improvement",
+      "Checking reports on the go is basically impossible right now",
+      "The public API's rate limits are undocumented and far too low"
+    ],
+    "customers": [
+      "Alex Davis",
+      "Alex Miller",
+      "Alex Thompson",
+      "Casey Young",
+      "Dana Park",
+      "Dana Wilson",
+      "Jordan Taylor",
+      "Morgan Hayes",
+      "Sam Cohen",
+      "Taylor Kim"
+    ],
+    "point_ids": [
+      "src_035_p1",
+      "src_036_p1",
+      "src_037_p1",
+      "src_038_p1",
+      "src_043_p1",
+      "src_044_p1",
+      "src_045_p1",
+      "src_046_p1",
+      "src_055_p1",
+      "src_063_p1",
+      "src_066_p1",
+      "src_067_p1"
+    ],
+    "executive_summary": "Customers are facing challenges with mobile access, including lack of mobile app functionality and issues with API rate limits, which limits their ability to access the product on-the-go. With 12 occurrences across different segments, it's crucial to develop a mobile-friendly experience and optimize API performance to cater to the evolving needs of customers and provide them with flexibility and convenience."
+  },
+  {
+    "theme_name": "Exporting Issues",
+    "theme_description": "Customers face issues with exporting data, including timeouts, failures, and formatting problems. This theme encompasses pain points related to data export operations, including bulk exports and CSV exports.",
+    "frequency": 8,
+    "impact_score": 31,
+    "segment_breakdown": {
+      "Enterprise": 5,
+      "SMB": 3
+    },
+    "use_case_breakdown": {
+      "Exporting data": 7,
+      "Data Import / Export": 1
+    },
+    "sample_quotes": [
+      "Bulk export operations time out on datasets exceeding 40k rows.",
+      "Our analysts need to export quarterly data for compliance reporting, but the system times out consistently.",
+      "The download thing just spins forever and never finishes, so annoying.",
+      "When I try to export more than 50k rows, it hangs indefinitely.",
+      "No timeout notification, no error message\u2014it just never completes."
+    ],
+    "customers": [
+      "Alex Miller",
+      "Casey Foster",
+      "Dana Wilson",
+      "Morgan Smith",
+      "Morgan Young"
+    ],
+    "point_ids": [
+      "src_001_p1",
+      "src_001_p2",
+      "src_002_p1",
+      "src_003_p1",
+      "src_003_p2",
+      "src_004_p1",
+      "src_065_p1",
+      "src_034_p1"
+    ],
+    "executive_summary": "Customers frequently experience issues with exporting data, including timeouts and formatting problems, which hinder their ability to extract insights from the product. This affects both Enterprise and SMB segments, with 5 and 3 occurrences respectively, indicating a need for reliable and efficient data export operations. Without a solution, customers may struggle to meet compliance requirements and perform quarterly analyses."
+  },
+  {
+    "theme_name": "Onboarding Challenges",
+    "theme_description": "Customers experience difficulties during the onboarding process, including inefficient setup, lack of guidance, and technical issues. This theme encompasses pain points related to onboarding, including setup processes and user experience.",
+    "frequency": 12,
+    "impact_score": 30,
+    "segment_breakdown": {
+      "Enterprise": 3,
+      "Free": 5,
+      "SMB": 2,
+      "Mid-Market": 2
+    },
+    "use_case_breakdown": {
+      "Onboarding / setup": 12
+    },
+    "sample_quotes": [
+      "The setup wizard doesn't accommodate strict permission rules",
+      "IT spends 2-3 hours per employee for what should be 15 minutes",
+      "I signed up and had no idea what to do",
+      "Clicked around for 20 minutes looking for features",
+      "Setup process should be simpler for new users."
+    ],
+    "customers": [
+      "Alex Chen",
+      "Alex Davis",
+      "Alex Miller",
+      "Casey Matthews",
+      "Dana Park",
+      "Jordan Rivera",
+      "Jordan Taylor",
+      "Morgan Blake",
+      "Pat Wilson"
+    ],
+    "point_ids": [
+      "src_009_p1",
+      "src_009_p2",
+      "src_010_p1",
+      "src_010_p2",
+      "src_011_p1",
+      "src_012_p1",
+      "src_042_p1",
+      "src_059_p1",
+      "src_059_p2",
+      "src_074_p1",
+      "src_076_p1",
+      "src_087_p1"
+    ],
+    "executive_summary": "The onboarding process is proving to be inefficient and confusing for customers, with issues ranging from setup complexities to lack of guidance. With 12 occurrences across different segments, including Enterprise, Free, SMB, and Mid-Market, it's clear that streamlining the onboarding experience is essential to reduce friction and improve user adoption. Simplifying the setup process will enable new users to start using the product more quickly and effectively."
+  },
+  {
+    "theme_name": "Integration Problems",
+    "theme_description": "Customers encounter issues with integrating the product with other tools and systems, including connection problems, sync failures, and lack of integration with specific services. This theme covers pain points related to integrations, including Salesforce integration and data syncing issues.",
+    "frequency": 8,
+    "impact_score": 22,
+    "segment_breakdown": {
+      "Enterprise": 3,
+      "Free": 4,
+      "Mid-Market": 1
+    },
+    "use_case_breakdown": {
+      "Integrations": 8
+    },
+    "sample_quotes": [
+      "Integration with Salesforce syncs intermittently and fails silently.",
+      "but nothing happens",
+      "I got a success message but nothing happens",
+      "It seemed to work but then stopped syncing data",
+      "No error, no notification"
+    ],
+    "customers": [
+      "Alex Chen",
+      "Alex Davis",
+      "Jordan Long",
+      "Pat Wilson",
+      "Taylor Brown",
+      "Taylor Kim"
+    ],
+    "point_ids": [
+      "src_005_p1",
+      "src_006_p1",
+      "src_006_p2",
+      "src_007_p1",
+      "src_007_p2",
+      "src_061_p1",
+      "src_062_p1",
+      "src_078_p1"
+    ],
+    "executive_summary": "Integration issues with other tools and systems, such as Salesforce, are causing problems for customers, including connection failures and sync issues. This affects multiple segments, including Enterprise, Free, and Mid-Market, highlighting the necessity of seamless integrations to ensure data consistency and user productivity. As the product is used across various industries, addressing these integration challenges is crucial."
+  },
+  {
+    "theme_name": "Security and Compliance",
+    "theme_description": "Customers face issues related to security, compliance, and data privacy, including lack of audit logs, inadequate security controls, and insufficient compliance features. This theme covers pain points related to security and compliance, including data privacy and GDPR compliance.",
+    "frequency": 5,
+    "impact_score": 21,
+    "segment_breakdown": {
+      "Enterprise": 4,
+      "Free": 1
+    },
+    "use_case_breakdown": {
+      "Compliance": 4,
+      "Support": 1
+    },
+    "sample_quotes": [
+      "Current logs don't meet HIPAA compliance standards",
+      "More security and compliance features would be helpful",
+      "We need better data privacy controls",
+      "Need better audit logging for compliance.",
+      "Data retention policy config is missing for compliance."
+    ],
+    "customers": [
+      "Casey Davis",
+      "Casey Foster",
+      "Dana Park"
+    ],
+    "point_ids": [
+      "src_028_p1",
+      "src_029_p1",
+      "src_030_p1",
+      "src_058_p1",
+      "src_082_p1"
+    ],
+    "executive_summary": "Security and compliance issues, such as lack of audit logs and inadequate security controls, are a concern for customers, particularly in the Enterprise segment. With 5 occurrences and a high frequency in Enterprise, it's essential to enhance the product's security features to meet compliance standards, including HIPAA and GDPR. By doing so, customers will have confidence in the product's ability to protect their sensitive data."
+  },
+  {
+    "theme_name": "Alerts and Notifications",
+    "theme_description": "Customers experience difficulties with alerts and notifications, including lack of proactive alerting, delayed notifications, and insufficient notification options. This theme encompasses pain points related to alerts and notifications, including threshold-based alerts and push notifications.",
+    "frequency": 6,
+    "impact_score": 20,
+    "segment_breakdown": {
+      "Enterprise": 3,
+      "Free": 1,
+      "SMB": 2
+    },
+    "use_case_breakdown": {
+      "Alerts/ notifications": 3,
+      "pipeline monitoring": 1,
+      "Anomaly detection": 1,
+      "Dashboard/ reporting": 1
+    },
+    "sample_quotes": [
+      "no proactive alerting. When a key metric crosses a threshold or a data pipeline stalls,",
+      "When a key metric crosses a threshold or a data pipeline stalls,",
+      "When a key metric crosses a threshold or a data pipeline stalls,",
+      "I wish it would just tell me when something's wrong",
+      "Threshold-based alerts and notifications would help a lot."
+    ],
+    "customers": [
+      "Alex Davis",
+      "Alex Thompson",
+      "Casey Davis",
+      "Jordan Rivera"
+    ],
+    "point_ids": [
+      "src_047_p1",
+      "src_047_p2",
+      "src_047_p3",
+      "src_048_p1",
+      "src_049_p1",
+      "src_050_p1"
+    ],
+    "executive_summary": "Customers are struggling with alerts and notifications, including lack of proactive alerting and delayed notifications, which is impacting their ability to respond to critical issues. With 6 occurrences across Enterprise, Free, and SMB segments, it's necessary to implement reliable and customizable alerting systems to ensure customers stay informed and can take prompt action when required."
+  },
+  {
+    "theme_name": "Sharing and Collaboration",
+    "theme_description": "Customers encounter issues with sharing reports, including lack of read-only shareable links, inability to share reports with expirations, and difficulty sending links to stakeholders. This theme covers pain points related to sharing and collaboration, including report sharing and collaboration features.",
+    "frequency": 6,
+    "impact_score": 17,
+    "segment_breakdown": {
+      "Enterprise": 2,
+      "SMB": 3,
+      "Free": 1
+    },
+    "use_case_breakdown": {
+      "Sharing reports externally": 5,
+      "Collaboration and sharing": 1
+    },
+    "sample_quotes": [
+      "giving them a full seat, which is a licensing and security problem",
+      "There's no read-only shareable link with an expiry",
+      "I have to screenshot everything and paste it into an email",
+      "Easier report sharing with stakeholders is badly needed.",
+      "Getting a report in front of someone outside the tool is painful"
+    ],
+    "customers": [
+      "Alex Thompson",
+      "Casey Foster",
+      "Casey Matthews",
+      "Dana Park",
+      "Pat Wilson"
+    ],
+    "point_ids": [
+      "src_051_p1",
+      "src_051_p2",
+      "src_052_p1",
+      "src_053_p1",
+      "src_054_p1",
+      "src_060_p1"
+    ],
+    "executive_summary": "Customers are experiencing difficulties with sharing reports, including lack of read-only shareable links and inability to share reports with expirations, which hinders collaboration with stakeholders. This affects various segments, including Enterprise, SMB, and Free, highlighting the need for improved sharing and collaboration features to facilitate seamless communication and decision-making."
+  },
+  {
+    "theme_name": "Access Control and Roles",
+    "theme_description": "Customers encounter issues with access control, including insufficient role-based access control, inadequate access control for dashboards, and lack of fine-grained permissions. This theme covers pain points related to access control and roles, including role-based access control and permissions.",
+    "frequency": 3,
+    "impact_score": 12,
+    "segment_breakdown": {
+      "Enterprise": 2,
+      "SMB": 1
+    },
+    "use_case_breakdown": {
+      "Support": 1,
+      "Integrations": 1,
+      "Dashboard / reporting": 1
+    },
+    "sample_quotes": [
+      "Role-based access control is too coarse",
+      "I can't stop my interns from seeing the money stuff",
+      "Need finer-grained permissions per dashboard or report"
+    ],
+    "customers": [
+      "Casey Matthews",
+      "Riley Johnson",
+      "Taylor Brown"
+    ],
+    "point_ids": [
+      "src_039_p1",
+      "src_040_p1",
+      "src_041_p1"
+    ],
+    "executive_summary": "Insufficient access control and role-based access control are causing issues for customers, particularly in the Enterprise segment, where fine-grained permissions are essential. With 3 occurrences, it's necessary to improve access control features to ensure that customers can manage user roles and permissions effectively, thereby maintaining data security and compliance."
+  },
+  {
+    "theme_name": "Other / Unclustered",
+    "theme_description": "Pain points that did not cluster with other themes.",
+    "frequency": 6,
+    "impact_score": 14,
+    "segment_breakdown": {
+      "Mid-Market": 3,
+      "SMB": 2,
+      "Free": 1
+    },
+    "use_case_breakdown": {
+      "General use": 1,
+      "Reporting": 2,
+      "UI customization": 1,
+      "Support": 1,
+      "Dashboard / reporting": 1
+    },
+    "sample_quotes": [
+      "Loading spinner sometimes hangs and I have to reload the whole page.",
+      "Save/reuse report templates would be helpful",
+      "Dark mode would reduce eye strain.",
+      "A template feature would save us 3-4 hours a week",
+      "Timezone handling is wrong, all my timestamps are off by hours."
+    ],
+    "customers": [
+      "Dana Park",
+      "Jordan Long",
+      "Morgan Young",
+      "Riley Anderson",
+      "Sam Cohen",
+      "Taylor Kim"
+    ],
+    "point_ids": [
+      "src_088_p1",
+      "src_027_p1",
+      "src_057_p1",
+      "src_026_p1",
+      "src_075_p1",
+      "src_070_p1"
+    ],
+    "executive_summary": "Various unclustered pain points, such as loading spinner issues, lack of report templates, and timezone handling problems, are affecting customers across different segments. While these issues may seem minor, they can still cause frustration and impact the overall user experience. Addressing these problems will help to refine the product and provide a more polished experience for customers."
+  }
+]

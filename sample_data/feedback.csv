@@ -1,0 +1,6 @@
+content,source,date,user_type,sentiment
+"The product is too expensive for our budget. We need more flexible pricing options or a free tier for small teams.",pricing_feedback.csv,2024-01-26,startup,negative
+"Manual data entry is taking up 20 hours per week. We desperately need workflow automation for our repetitive tasks.",workflow_feedback.csv,2024-01-27,team_small,negative
+"The dashboard is hard to use and the reporting features are limited. We can't get the insights we need without exporting to Excel.",dashboard_feedback.csv,2024-01-28,non_technical,neutral
+"Integration with our existing tools is problematic. We use HubSpot, Zapier, and Slack but the plugins often break.",integration_feedback.csv,2024-01-29,technical,negative
+"Customer support response time averages 48 hours. We need faster support for production issues. Live chat or phone support would be beneficial.",support_feedback.csv,2024-02-01,enterprise,negative

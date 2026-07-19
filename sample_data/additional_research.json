@@ -1,0 +1,23 @@
+[
+  {
+    "content": "User interview notes: The platform crashed three times this week when processing monthly reports. The error recovery is poor and users lose their work. We need more reliable infrastructure and better error handling. The product is unstable for business-critical operations.",
+    "source": "interview_techco.json",
+    "date": "2024-02-02",
+    "user_type": "enterprise",
+    "sentiment": "negative"
+  },
+  {
+    "content": "Freelancer feedback: As a solo user, the pricing model is not suitable. All features are bundled together but I only need basic reporting. The setup process took 4 hours and required technical knowledge. The documentation assumes users are technical. I need a simpler, cheaper alternative.",
+    "source": "freelancer_interview.json",
+    "date": "2024-02-03",
+    "user_type": "freelancer",
+    "sentiment": "negative"
+  },
+  {
+    "content": "Developer feedback on API: The API documentation is incomplete and outdated. The rate limiting is too strict for our use case. We're getting errors that aren't well documented. Building custom integrations is time-consuming and error-prone. We need better developer tools and SDKs.",
+    "source": "developer_feedback.json",
+    "date": "2024-02-04",
+    "user_type": "technical",
+    "sentiment": "negative"
+  }
+]

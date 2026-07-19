@@ -1,0 +1,14 @@
+# DiscoveryOS — polished default (dark) theme. The in-app "🌙 Dark mode"
+# toggle flips to a light palette at runtime via injected CSS + the graph's
+# own theme arg; this file sets the professional dark baseline the app
+# opens on.
+[theme]
+base = "dark"
+primaryColor = "#F2A65A"
+backgroundColor = "#111318"
+secondaryBackgroundColor = "#1c2029"
+textColor = "#e8e8e8"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

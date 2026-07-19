@@ -1,0 +1,37 @@
+[
+  {
+    "content": "During the interview, the customer mentioned that the current system is very slow to load large datasets. They have to wait up to 5 minutes for their reports to generate. This is frustrating because it impacts their daily workflow. They also mentioned that the API integration with Salesforce is broken and hasn't worked in the last two months. The customer would like better real-time data synchronization.",
+    "source": "interview_acme_corp.json",
+    "date": "2024-01-15",
+    "user_type": "enterprise",
+    "sentiment": "negative"
+  },
+  {
+    "content": "Customer feedback from support ticket: The interface is confusing and unintuitive. New team members struggle to understand where features are located. The onboarding documentation is unclear and incomplete. Customers want a more streamlined workflow with fewer clicks to complete common tasks.",
+    "source": "support_tickets.json",
+    "date": "2024-01-18",
+    "user_type": "team_small",
+    "sentiment": "negative"
+  },
+  {
+    "content": "Survey response from startup founder: While the product has good features, it's missing critical capabilities for advanced analytics. The cost is also high for early-stage companies. We would like better automation for repetitive data entry tasks. The API documentation needs improvement for custom integrations.",
+    "source": "survey_responses.json",
+    "date": "2024-01-20",
+    "user_type": "startup",
+    "sentiment": "neutral"
+  },
+  {
+    "content": "User research notes: Large enterprises need better compliance and audit features. Security requirements are critical for their decision-making. The current system fails to provide detailed audit logs and compliance reporting. They need role-based access controls. Customer support response time is also a concern for enterprise customers.",
+    "source": "research_notes.json",
+    "date": "2024-01-22",
+    "user_type": "enterprise",
+    "sentiment": "negative"
+  },
+  {
+    "content": "From customer call with technical team: The slow performance with large datasets is a blocker for production use. They report crashes when uploading files larger than 100MB. Error messages are unclear and don't help with troubleshooting. The third-party integrations are unreliable and often fail silently.",
+    "source": "call_transcript.json",
+    "date": "2024-01-25",
+    "user_type": "technical",
+    "sentiment": "negative"
+  }
+]

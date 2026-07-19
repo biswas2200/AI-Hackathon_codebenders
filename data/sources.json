@@ -1,0 +1,706 @@
+[
+  {
+    "id": "src_001",
+    "source_type": "interview",
+    "customer_name": "Alex Miller",
+    "segment": "Enterprise",
+    "date": "2026-05-08",
+    "text": "Bulk export operations time out on datasets exceeding 40k rows. Our analysts need to export quarterly data for compliance reporting, but the system times out consistently. We end up using manual workarounds."
+  },
+  {
+    "id": "src_002",
+    "source_type": "survey",
+    "customer_name": "Morgan Young",
+    "segment": "SMB",
+    "date": "2026-06-29",
+    "text": "The download thing just spins forever and never finishes, so annoying. I try to get my data out and it's broken every time."
+  },
+  {
+    "id": "src_003",
+    "source_type": "survey",
+    "customer_name": "Morgan Smith",
+    "segment": "Enterprise",
+    "date": "2026-06-05",
+    "text": "When I try to export more than 50k rows, it hangs indefinitely. No timeout notification, no error message\u2014it just never completes."
+  },
+  {
+    "id": "src_004",
+    "source_type": "survey",
+    "customer_name": "Casey Foster",
+    "segment": "SMB",
+    "date": "2026-05-27",
+    "text": "Export feature needs better handling of large datasets."
+  },
+  {
+    "id": "src_005",
+    "source_type": "interview",
+    "customer_name": "Pat Wilson",
+    "segment": "Enterprise",
+    "date": "2026-05-30",
+    "text": "Integration with Salesforce syncs intermittently and fails silently. Our sales team relies on real-time data, but they don't realize sync is broken until hours later when discrepancies appear."
+  },
+  {
+    "id": "src_006",
+    "source_type": "support_ticket",
+    "customer_name": "Taylor Kim",
+    "segment": "Free",
+    "date": "2026-06-22",
+    "text": "Connected my Slack but it just doesn't work. I got a success message but nothing happens."
+  },
+  {
+    "id": "src_007",
+    "source_type": "survey",
+    "customer_name": "Jordan Long",
+    "segment": "Free",
+    "date": "2026-06-17",
+    "text": "We tried connecting HubSpot through Zapier. It seemed to work but then stopped syncing data without any warning. No error, no notification."
+  },
+  {
+    "id": "src_008",
+    "source_type": "support_ticket",
+    "customer_name": "Sam Martin",
+    "segment": "Mid-Market",
+    "date": "2026-05-15",
+    "text": "Ticket: Zapier integration stopped working silently."
+  },
+  {
+    "id": "src_009",
+    "source_type": "interview",
+    "customer_name": "Alex Chen",
+    "segment": "Enterprise",
+    "date": "2026-07-18",
+    "text": "New team member onboarding requires extensive IT involvement. The setup wizard doesn't accommodate strict permission rules. IT spends 2-3 hours per employee for what should be 15 minutes."
+  },
+  {
+    "id": "src_010",
+    "source_type": "survey",
+    "customer_name": "Alex Davis",
+    "segment": "Free",
+    "date": "2026-04-24",
+    "text": "I signed up and had no idea what to do. Clicked around for 20 minutes looking for features."
+  },
+  {
+    "id": "src_011",
+    "source_type": "support_ticket",
+    "customer_name": "Morgan Blake",
+    "segment": "SMB",
+    "date": "2026-05-13",
+    "text": "Setup process should be simpler for new users."
+  },
+  {
+    "id": "src_012",
+    "source_type": "interview",
+    "customer_name": "Alex Miller",
+    "segment": "Mid-Market",
+    "date": "2026-05-05",
+    "text": "The initial setup is confusing without guidance."
+  },
+  {
+    "id": "src_013",
+    "source_type": "survey",
+    "customer_name": "Sam Martin",
+    "segment": "Enterprise",
+    "date": "2026-06-03",
+    "text": "Dashboard responsiveness degrades significantly with large historical datasets. Loading a year of daily aggregated data can take 30-45 seconds."
+  },
+  {
+    "id": "src_014",
+    "source_type": "survey",
+    "customer_name": "Casey Young",
+    "segment": "SMB",
+    "date": "2026-05-20",
+    "text": "The dashboard is super slow. Takes like 30 seconds to load my reports."
+  },
+  {
+    "id": "src_015",
+    "source_type": "interview",
+    "customer_name": "Alex Miller",
+    "segment": "SMB",
+    "date": "2026-06-28",
+    "text": "When I open my year-to-date report it takes forever to render. It's just expected that we wait 30-45 seconds."
+  },
+  {
+    "id": "src_016",
+    "source_type": "survey",
+    "customer_name": "Jordan Long",
+    "segment": "Mid-Market",
+    "date": "2026-05-02",
+    "text": "Dashboard performance could be improved."
+  },
+  {
+    "id": "src_017",
+    "source_type": "interview",
+    "customer_name": "Casey Davis",
+    "segment": "Enterprise",
+    "date": "2026-05-22",
+    "text": "Support response times have degraded to 24-48 hours for non-critical issues. Our Enterprise SLA promises 4 hours; we're consistently missing that target."
+  },
+  {
+    "id": "src_018",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Young",
+    "segment": "Mid-Market",
+    "date": "2026-06-21",
+    "text": "Support took too long to respond to our issues."
+  },
+  {
+    "id": "src_019",
+    "source_type": "support_ticket",
+    "customer_name": "Alex Thompson",
+    "segment": "Mid-Market",
+    "date": "2026-05-20",
+    "text": "Response times seem to have gotten worse over the last quarter."
+  },
+  {
+    "id": "src_020",
+    "source_type": "interview",
+    "customer_name": "Morgan Hayes",
+    "segment": "Enterprise",
+    "date": "2026-06-16",
+    "text": "Ticket: Support response time exceeds SLA."
+  },
+  {
+    "id": "src_021",
+    "source_type": "survey",
+    "customer_name": "Jordan Long",
+    "segment": "Enterprise",
+    "date": "2026-06-01",
+    "text": "Our finance team can't reconcile charges with seat count and feature usage. Invoice doesn't match our understanding of the pricing model."
+  },
+  {
+    "id": "src_022",
+    "source_type": "support_ticket",
+    "customer_name": "Taylor Kim",
+    "segment": "Free",
+    "date": "2026-07-12",
+    "text": "I got charged and I don't even know why. The pricing page is confusing."
+  },
+  {
+    "id": "src_023",
+    "source_type": "support_ticket",
+    "customer_name": "Taylor Kim",
+    "segment": "Free",
+    "date": "2026-06-26",
+    "text": "Billing model is unclear and hard to predict."
+  },
+  {
+    "id": "src_024",
+    "source_type": "interview",
+    "customer_name": "Morgan Blake",
+    "segment": "SMB",
+    "date": "2026-05-07",
+    "text": "It's hard to understand what we're paying for."
+  },
+  {
+    "id": "src_025",
+    "source_type": "support_ticket",
+    "customer_name": "Dana Wilson",
+    "segment": "SMB",
+    "date": "2026-05-14",
+    "text": "I have to build the same reports every month from scratch. Would be amazing if there were saved templates."
+  },
+  {
+    "id": "src_026",
+    "source_type": "survey",
+    "customer_name": "Sam Cohen",
+    "segment": "Free",
+    "date": "2026-07-16",
+    "text": "Our finance team runs the same weekly report every Monday. A template feature would save us 3-4 hours a week."
+  },
+  {
+    "id": "src_027",
+    "source_type": "support_ticket",
+    "customer_name": "Jordan Long",
+    "segment": "SMB",
+    "date": "2026-05-04",
+    "text": "Save/reuse report templates would be helpful."
+  },
+  {
+    "id": "src_028",
+    "source_type": "interview",
+    "customer_name": "Dana Park",
+    "segment": "Enterprise",
+    "date": "2026-05-19",
+    "text": "Our data privacy officer requires more granular audit logs. Current logs don't meet HIPAA compliance standards."
+  },
+  {
+    "id": "src_029",
+    "source_type": "survey",
+    "customer_name": "Casey Foster",
+    "segment": "Enterprise",
+    "date": "2026-07-14",
+    "text": "More security and compliance features would be helpful."
+  },
+  {
+    "id": "src_030",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Foster",
+    "segment": "Free",
+    "date": "2026-07-08",
+    "text": "We need better data privacy controls."
+  },
+  {
+    "id": "src_031",
+    "source_type": "survey",
+    "customer_name": "Taylor Kim",
+    "segment": "Enterprise",
+    "date": "2026-06-07",
+    "text": "Aggregated revenue figures in the dashboard don't reconcile with our source-of-truth data warehouse. We've measured a 2-4% discrepancy on rolled-up metrics, which undermines executive trust in the numbers."
+  },
+  {
+    "id": "src_032",
+    "source_type": "survey",
+    "customer_name": "Morgan Young",
+    "segment": "SMB",
+    "date": "2026-06-26",
+    "text": "The numbers just don't add up. My total on the dashboard is different from what I get when I add it up myself, so I don't really trust it."
+  },
+  {
+    "id": "src_033",
+    "source_type": "interview",
+    "customer_name": "Casey Davis",
+    "segment": "Mid-Market",
+    "date": "2026-07-11",
+    "text": "We keep finding cases where the summary total doesn't match the detail rows underneath it. Nobody can explain the gap, so we double-check in Excel."
+  },
+  {
+    "id": "src_034",
+    "source_type": "support_ticket",
+    "customer_name": "Dana Wilson",
+    "segment": "SMB",
+    "date": "2026-04-21",
+    "text": "Ticket: Dashboard totals don't match exported detail data."
+  },
+  {
+    "id": "src_035",
+    "source_type": "interview",
+    "customer_name": "Alex Miller",
+    "segment": "Enterprise",
+    "date": "2026-06-02",
+    "text": "Our field leadership needs to review KPIs during travel, but the product is effectively desktop-only. The responsive web view is unusable on a phone."
+  },
+  {
+    "id": "src_036",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Young",
+    "segment": "Free",
+    "date": "2026-05-12",
+    "text": "There's no app? I just want to glance at my numbers on my phone but the website is a mess on mobile, everything's tiny and cut off."
+  },
+  {
+    "id": "src_037",
+    "source_type": "support_ticket",
+    "customer_name": "Morgan Hayes",
+    "segment": "Mid-Market",
+    "date": "2026-06-28",
+    "text": "A native mobile app would be a huge improvement."
+  },
+  {
+    "id": "src_038",
+    "source_type": "interview",
+    "customer_name": "Taylor Kim",
+    "segment": "SMB",
+    "date": "2026-06-11",
+    "text": "Checking reports on the go is basically impossible right now."
+  },
+  {
+    "id": "src_039",
+    "source_type": "survey",
+    "customer_name": "Riley Johnson",
+    "segment": "Enterprise",
+    "date": "2026-06-30",
+    "text": "Role-based access control is too coarse. We can't restrict specific dashboards to specific departments, so finance data is visible to everyone with a login, which fails our internal access-control policy."
+  },
+  {
+    "id": "src_040",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Matthews",
+    "segment": "SMB",
+    "date": "2026-07-16",
+    "text": "I can't stop my interns from seeing the money stuff. It's all or nothing for who sees what, which is not great."
+  },
+  {
+    "id": "src_041",
+    "source_type": "survey",
+    "customer_name": "Taylor Brown",
+    "segment": "Enterprise",
+    "date": "2026-07-02",
+    "text": "Need finer-grained permissions per dashboard or report."
+  },
+  {
+    "id": "src_042",
+    "source_type": "interview",
+    "customer_name": "Dana Park",
+    "segment": "Mid-Market",
+    "date": "2026-06-29",
+    "text": "Everyone on the team sees everything; we need proper roles."
+  },
+  {
+    "id": "src_043",
+    "source_type": "survey",
+    "customer_name": "Sam Cohen",
+    "segment": "Enterprise",
+    "date": "2026-06-22",
+    "text": "The public API's rate limits are undocumented and far too low for our nightly ETL job, which pulls metrics for 200 accounts. We hit 429s constantly and there's no way to request a higher tier."
+  },
+  {
+    "id": "src_044",
+    "source_type": "interview",
+    "customer_name": "Alex Davis",
+    "segment": "Enterprise",
+    "date": "2026-07-11",
+    "text": "Our engineers wired up the API but it throttles us so aggressively the sync never finishes in the batch window. We had to add ugly retry loops."
+  },
+  {
+    "id": "src_045",
+    "source_type": "support_ticket",
+    "customer_name": "Jordan Taylor",
+    "segment": "Mid-Market",
+    "date": "2026-06-23",
+    "text": "API rate limits are too restrictive for programmatic use."
+  },
+  {
+    "id": "src_046",
+    "source_type": "survey",
+    "customer_name": "Dana Wilson",
+    "segment": "Enterprise",
+    "date": "2026-06-26",
+    "text": "Ticket: Frequent 429 rate-limit errors on the reporting API."
+  },
+  {
+    "id": "src_047",
+    "source_type": "interview",
+    "customer_name": "Alex Davis",
+    "segment": "Enterprise",
+    "date": "2026-07-07",
+    "text": "There's no proactive alerting. When a key metric crosses a threshold or a data pipeline stalls, we only find out when someone happens to open the dashboard. We need push notifications for anomalies."
+  },
+  {
+    "id": "src_048",
+    "source_type": "support_ticket",
+    "customer_name": "Jordan Rivera",
+    "segment": "Free",
+    "date": "2026-05-10",
+    "text": "I wish it would just tell me when something's wrong instead of me having to remember to log in and check every day."
+  },
+  {
+    "id": "src_049",
+    "source_type": "survey",
+    "customer_name": "Alex Thompson",
+    "segment": "SMB",
+    "date": "2026-04-27",
+    "text": "Threshold-based alerts and notifications would help a lot."
+  },
+  {
+    "id": "src_050",
+    "source_type": "interview",
+    "customer_name": "Casey Davis",
+    "segment": "SMB",
+    "date": "2026-06-21",
+    "text": "We're always reacting late because nothing notifies us."
+  },
+  {
+    "id": "src_051",
+    "source_type": "survey",
+    "customer_name": "Pat Wilson",
+    "segment": "Enterprise",
+    "date": "2026-06-07",
+    "text": "Sharing a report externally with a client requires giving them a full seat, which is a licensing and security problem. There's no read-only shareable link with an expiry."
+  },
+  {
+    "id": "src_052",
+    "source_type": "support_ticket",
+    "customer_name": "Alex Thompson",
+    "segment": "SMB",
+    "date": "2026-06-26",
+    "text": "I just want to send my boss a link to the report but I can't, I have to screenshot everything and paste it into an email. So clunky."
+  },
+  {
+    "id": "src_053",
+    "source_type": "survey",
+    "customer_name": "Casey Foster",
+    "segment": "SMB",
+    "date": "2026-06-21",
+    "text": "Easier report sharing with stakeholders is badly needed."
+  },
+  {
+    "id": "src_054",
+    "source_type": "support_ticket",
+    "customer_name": "Dana Park",
+    "segment": "Free",
+    "date": "2026-07-07",
+    "text": "Getting a report in front of someone outside the tool is painful."
+  },
+  {
+    "id": "src_055",
+    "source_type": "interview",
+    "customer_name": "Dana Park",
+    "segment": "Enterprise",
+    "date": "2026-06-09",
+    "text": "Mobile app is needed. Our team works remotely and needs to check reports on the go."
+  },
+  {
+    "id": "src_056",
+    "source_type": "survey",
+    "customer_name": "Morgan Smith",
+    "segment": "SMB",
+    "date": "2026-04-24",
+    "text": "Performance issues with large datasets."
+  },
+  {
+    "id": "src_057",
+    "source_type": "support_ticket",
+    "customer_name": "Riley Anderson",
+    "segment": "Mid-Market",
+    "date": "2026-05-07",
+    "text": "Ticket: Dark mode would reduce eye strain."
+  },
+  {
+    "id": "src_058",
+    "source_type": "interview",
+    "customer_name": "Casey Davis",
+    "segment": "Enterprise",
+    "date": "2026-05-24",
+    "text": "Need better audit logging for compliance."
+  },
+  {
+    "id": "src_059",
+    "source_type": "survey",
+    "customer_name": "Jordan Taylor",
+    "segment": "Free",
+    "date": "2026-04-28",
+    "text": "Learning curve is steep. More tutorials would help new users."
+  },
+  {
+    "id": "src_060",
+    "source_type": "interview",
+    "customer_name": "Casey Matthews",
+    "segment": "SMB",
+    "date": "2026-05-13",
+    "text": "Our biggest pain is we can't easily share reports with stakeholders."
+  },
+  {
+    "id": "src_061",
+    "source_type": "survey",
+    "customer_name": "Alex Chen",
+    "segment": "Enterprise",
+    "date": "2026-06-27",
+    "text": "Need real-time alerts for data sync failures."
+  },
+  {
+    "id": "src_062",
+    "source_type": "interview",
+    "customer_name": "Taylor Brown",
+    "segment": "Mid-Market",
+    "date": "2026-07-15",
+    "text": "Third-party integrations break frequently."
+  },
+  {
+    "id": "src_063",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Young",
+    "segment": "Free",
+    "date": "2026-07-11",
+    "text": "Ticket: Feature requests for bulk import functionality."
+  },
+  {
+    "id": "src_064",
+    "source_type": "interview",
+    "customer_name": "Dana Wilson",
+    "segment": "SMB",
+    "date": "2026-05-24",
+    "text": "Reporting interface is hard to navigate."
+  },
+  {
+    "id": "src_065",
+    "source_type": "survey",
+    "customer_name": "Dana Wilson",
+    "segment": "Enterprise",
+    "date": "2026-04-28",
+    "text": "Data export reliability is critical for our operations."
+  },
+  {
+    "id": "src_066",
+    "source_type": "survey",
+    "customer_name": "Dana Park",
+    "segment": "Mid-Market",
+    "date": "2026-05-05",
+    "text": "Would like better data visualization options."
+  },
+  {
+    "id": "src_067",
+    "source_type": "interview",
+    "customer_name": "Alex Thompson",
+    "segment": "Free",
+    "date": "2026-05-25",
+    "text": "API documentation could be more comprehensive."
+  },
+  {
+    "id": "src_068",
+    "source_type": "support_ticket",
+    "customer_name": "Alex Davis",
+    "segment": "Enterprise",
+    "date": "2026-05-28",
+    "text": "Ticket: Scaling issues with concurrent users."
+  },
+  {
+    "id": "src_069",
+    "source_type": "support_ticket",
+    "customer_name": "Jordan Long",
+    "segment": "SMB",
+    "date": "2026-04-29",
+    "text": "Ticket: Integration with Google Sheets needed."
+  },
+  {
+    "id": "src_070",
+    "source_type": "interview",
+    "customer_name": "Dana Park",
+    "segment": "Mid-Market",
+    "date": "2026-06-26",
+    "text": "Custom report scheduling would be very helpful."
+  },
+  {
+    "id": "src_071",
+    "source_type": "interview",
+    "customer_name": "Morgan Blake",
+    "segment": "Enterprise",
+    "date": "2026-04-25",
+    "text": "Need GDPR compliance improvements."
+  },
+  {
+    "id": "src_072",
+    "source_type": "survey",
+    "customer_name": "Morgan Hayes",
+    "segment": "Free",
+    "date": "2026-06-10",
+    "text": "Free tier limitations are too restrictive."
+  },
+  {
+    "id": "src_073",
+    "source_type": "interview",
+    "customer_name": "Jordan Rivera",
+    "segment": "Mid-Market",
+    "date": "2026-07-18",
+    "text": "We'd love saved filter presets so we stop rebuilding the same view."
+  },
+  {
+    "id": "src_074",
+    "source_type": "survey",
+    "customer_name": "Casey Matthews",
+    "segment": "Enterprise",
+    "date": "2026-05-02",
+    "text": "Single sign-on via Okta is a hard requirement for our security team."
+  },
+  {
+    "id": "src_075",
+    "source_type": "support_ticket",
+    "customer_name": "Morgan Young",
+    "segment": "SMB",
+    "date": "2026-05-04",
+    "text": "Ticket: Timezone handling is wrong, all my timestamps are off by hours."
+  },
+  {
+    "id": "src_076",
+    "source_type": "interview",
+    "customer_name": "Jordan Rivera",
+    "segment": "Free",
+    "date": "2026-05-07",
+    "text": "The onboarding emails are helpful but the product itself still felt confusing."
+  },
+  {
+    "id": "src_077",
+    "source_type": "survey",
+    "customer_name": "Taylor Brown",
+    "segment": "Mid-Market",
+    "date": "2026-06-05",
+    "text": "Cross-filtering between charts would make analysis much faster."
+  },
+  {
+    "id": "src_078",
+    "source_type": "interview",
+    "customer_name": "Alex Davis",
+    "segment": "Enterprise",
+    "date": "2026-06-07",
+    "text": "We need white-labeling so we can embed dashboards in our own portal."
+  },
+  {
+    "id": "src_079",
+    "source_type": "survey",
+    "customer_name": "Casey Young",
+    "segment": "SMB",
+    "date": "2026-06-27",
+    "text": "Would love a way to annotate charts before sharing them."
+  },
+  {
+    "id": "src_080",
+    "source_type": "support_ticket",
+    "customer_name": "Jordan Long",
+    "segment": "Mid-Market",
+    "date": "2026-05-22",
+    "text": "Ticket: Scheduled report email never arrived this morning."
+  },
+  {
+    "id": "src_081",
+    "source_type": "survey",
+    "customer_name": "Dana Wilson",
+    "segment": "Free",
+    "date": "2026-07-03",
+    "text": "More chart types, please \u2014 pie and bar only feels limiting."
+  },
+  {
+    "id": "src_082",
+    "source_type": "support_ticket",
+    "customer_name": "Casey Davis",
+    "segment": "Enterprise",
+    "date": "2026-04-27",
+    "text": "Ticket: Data retention policy config is missing for compliance."
+  },
+  {
+    "id": "src_083",
+    "source_type": "interview",
+    "customer_name": "Jordan Taylor",
+    "segment": "SMB",
+    "date": "2026-07-02",
+    "text": "Every time I refresh, my custom layout resets to the default."
+  },
+  {
+    "id": "src_084",
+    "source_type": "interview",
+    "customer_name": "Sam Martin",
+    "segment": "Mid-Market",
+    "date": "2026-05-15",
+    "text": "Drill-down from a summary chart into the raw rows doesn't work well."
+  },
+  {
+    "id": "src_085",
+    "source_type": "support_ticket",
+    "customer_name": "Alex Thompson",
+    "segment": "Free",
+    "date": "2026-04-29",
+    "text": "Ticket: Can't undo an accidental delete of a saved report."
+  },
+  {
+    "id": "src_086",
+    "source_type": "survey",
+    "customer_name": "Alex Davis",
+    "segment": "Enterprise",
+    "date": "2026-06-01",
+    "text": "We need SOC 2 documentation before we can expand our contract."
+  },
+  {
+    "id": "src_087",
+    "source_type": "survey",
+    "customer_name": "Pat Wilson",
+    "segment": "SMB",
+    "date": "2026-06-07",
+    "text": "The color palette isn't colorblind-friendly for our team."
+  },
+  {
+    "id": "src_088",
+    "source_type": "interview",
+    "customer_name": "Taylor Kim",
+    "segment": "Mid-Market",
+    "date": "2026-07-01",
+    "text": "Loading spinner sometimes hangs and I have to reload the whole page."
+  }
+]

@@ -1,0 +1,13 @@
+# Secrets -- never commit the API key
+.env
+
+# Virtualenv
+env/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Pipeline outputs / cache (regenerable)
+data/.cache/
